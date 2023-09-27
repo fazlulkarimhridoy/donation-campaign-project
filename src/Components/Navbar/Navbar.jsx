@@ -10,8 +10,8 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="container mx-auto pt-8">
-                <div className="navbar bg-base-100">
+            <div className="w-[1320px] mx-auto pt-8">
+                <div className="navbar">
                     <div className="flex-1">
                         <img src="/src/Images/Logo.png" alt="" />
                     </div>

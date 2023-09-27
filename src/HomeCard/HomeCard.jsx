@@ -12,7 +12,7 @@ const HomeCard = ({ data }) => {
     return (
         <div>
             <Link to={`/cardDetails/${id}`}>
-                <div style={{ backgroundColor: `${background_color}` }} className="w-[312px] flex flex-col rounded-lg">
+                <div style={{ backgroundColor: `${background_color}` }} className="w-[312px] h-[300px] flex flex-col rounded-lg">
                     <div className=" pb-2 m-0 overflow-hidden bg-transparent bg-clip-border">
                         <img className="w-[312px] h-[194px]"
                             src={image}
@@ -20,11 +20,11 @@ const HomeCard = ({ data }) => {
                         />
                     </div>
                     <div>
-                        <div style={{ backgroundColor: `${button_background_color}` }} className="p-2 rounded">
-                            <button>{category}</button>
+                        <div  className="p-2 rounded">
+                            <h4 className="w-1/3 text-sm font-medium rounded-lg text-center p-2" style={{ backgroundColor: `${button_background_color}`, color: `${text_color}` }}>{category}</h4>
                         </div>
                         <div >
-                        <h4 style={{ color: `${text_color}` }} className="block font-sans text-xl font-semibold leading-snug tracking-normal antialiased">
+                        <h4 style={{ color: `${text_color}` }} className="pl-2 block font-sans text-xl font-semibold leading-snug tracking-normal antialiased">
                             {title}
                         </h4>
                         </div>

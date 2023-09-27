@@ -2,19 +2,19 @@
 const Banner = () => {
     return (
         <div>
-            <div className="hero h-[600px]" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
-                <div className="hero-overlay bg-opacity-60"></div>
+            <div className="hero h-[350px]">
+                
                 <div className="hero-content text-center text-neutral-content">
-                    <div className="max-w-md">
-                        <h1 className="mb-5 text-2xl font-bold">I Grow By Helping People In Need</h1>
+                    <div>
+                        <h1 className="mb-10 text-4xl text-black font-bold">I Grow By Helping People In Need</h1>
                         <div className="join">
                             <div>
                                 <div>
-                                    <input className="input input-bordered join-item" placeholder="Search" />
+                                    <input className="w-[350px] input input-bordered join-item" placeholder="Search here" />
                                 </div>
                             </div>
                             <div className="indicator">
-                                <button className="btn join-item">Search</button>
+                                <button className="btn bg-red-500 text-white join-item">Search</button>
                             </div>
                         </div>
                     </div>
