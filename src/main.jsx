@@ -10,7 +10,7 @@ import Home from './Components/Home/Home';
 import Donation from './Components/Donation/Donation';
 import Statistics from './Components/Statistics/Statistics';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
-import CardDetails from './CardDetails/CardDetails';
+import CardDetails from './Components/CardDetails/CardDetails';
 
 const router = createBrowserRouter([
   {
