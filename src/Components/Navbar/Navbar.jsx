@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import {image} from './image'
 const Navbar = () => {
 
     const link = <>
@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className="w-[1320px] mx-auto pt-8">
                 <div className="navbar">
                     <div className="flex-1">
-                        <img src="/src/Images/Logo.png" alt="" />
+                        <img src={image} />
                     </div>
                     <div className="flex-none">
                         <ul className="gap-x-10 menu menu-horizontal px-1">
