@@ -11,15 +11,11 @@ const Donation = () => {
     }, [])
 
 
-
-
-
-
     return (
         <div className="pt-20 pb-40 ">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[1320px] mx-auto gap-6">
                 {
-                    donated?.slice(0, dataLength).map(data => <DonationCard key={data.id} data={data}></DonationCard>)
+                    donated.slice(0, dataLength).map(data => <DonationCard key={data.id} data={data}></DonationCard>)
                 }
 
             </div>
@@ -35,7 +31,6 @@ const Donation = () => {
                         onClick={() => setDataLength(4)} className="bg-green-600 text-white px-6 py-3 rounded-lg">Show Less</button>
                 </div>
             </div>
-
         </div>
     );
 };
